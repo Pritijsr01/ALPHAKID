@@ -1,0 +1,180 @@
+<html>
+    <head>
+        <title>
+            New
+        </title>
+        <style>
+            body{
+                background-color: aqua;
+
+            }
+            #s1{
+                
+                border:20px double silver;
+                 border-radius: 30px ;
+            }
+            #m1{
+                
+                border: 20px solid navy;
+                margin-left: 20px;
+                margin-left: 40%;
+                border-radius: 50px;
+                text-align: center;
+                font-size: 20px;
+        
+
+            }
+            #p1{
+                width: 40%;
+                height: 200px;
+                background-color: yellow;
+                margin-left: 30%;
+                border-radius: 40px;
+                margin-top: 30px;
+                border:10px double;
+                background-size:100% 100% ;
+            }
+
+            #p2{
+                width:40%;
+                height: 40px;
+                background-color:yellow;
+                border-radius: 100px;
+                border: 10px double black;
+                text-align: center;
+                
+                font-size: 20px;
+                font-style: italic;
+                margin-left: 30%;
+            }
+           
+        </style>
+        <script>
+            function ab()
+            {
+                n=document.getElementById("m1").value
+                
+                switch(n){
+                    case('A'): 
+
+                    document.getElementById("p1").style.backgroundImage='url("apple.jpg")'
+                    document.getElementById("p2").innerHTML=" It is an Apple"
+                break;
+                case('B'): 
+                document.getElementById("p1").style.backgroundImage='url("ball.jpg")'
+                document.getElementById("p2").innerHTML="It is a ball"
+                break; 
+                case('C'): 
+                document.getElementById("p1").style.backgroundImage='url("cat.jpg")'
+                document.getElementById("p2").innerHTML="hey,it's kitty cat"
+                break; 
+                case('D'): 
+                document.getElementById("p1").style.backgroundImage='url("doraemon.jpg")'
+                document.getElementById("p2").innerHTML="Hey,It's doraemon"
+                break; 
+                case('E'): 
+                document.getElementById("p1").style.backgroundImage='url("elephant")'
+                document.getElementById("p2").innerHTML="It is an elephant"
+                break;
+                case('F'): 
+                document.getElementById("p1").style.backgroundImage='url("fish")'
+                document.getElementById("p2").innerHTML="It is a fish"
+                break; 
+                case('G'): 
+                document.getElementById("p1").style.backgroundImage='url("grapes.jpg")'
+                document.getElementById("p2").innerHTML="It is a grapes"
+                break; 
+                case('H'): 
+                document.getElementById("p1").style.backgroundImage='url("hen.jpg")'
+                document.getElementById("p2").innerHTML="Hey! I'm hen."
+                break; 
+                case('I'): 
+                document.getElementById("p1").style.backgroundImage='url("ice cream.png")'
+                document.getElementById("p2").innerHTML="It is an ice-cream"
+                break; 
+                case('J'): 
+                document.getElementById("p1").style.backgroundImage='url("joker.jpg")'
+                document.getElementById("p2").innerHTML="Hey,I'm joker"
+                break; 
+                case('k'): 
+                document.getElementById("p1").style.backgroundImage='url("king.jpg")'
+                document.getElementById("p2").innerHTML="Hey!I'm king"
+                break; 
+                case('L'): 
+                document.getElementById("p1").style.backgroundImage='url("lion.jpg")'
+                document.getElementById("p2").innerHTML="Hey!I'm the real king"
+                break; 
+                case('M'): 
+                document.getElementById("p1").style.backgroundImage='url("mango.jpg")'
+                document.getElementById("p2").innerHTML="Hey! I'm king of fruit"
+                break; 
+                case('N'): 
+                document.getElementById("p1").style.backgroundImage='url("next.jpg")'
+                document.getElementById("p2").innerHTML="It is a jug"
+                break; 
+                case('O'): 
+                document.getElementById("p1").style.backgroundImage='url("owl.jpg")'
+                document.getElementById("p2").innerHTML="Hey!I'm an owl"
+                break; 
+                case('P'): 
+                document.getElementById("p1").style.backgroundImage='url("peacock.webq")'
+                document.getElementById("p2").innerHTML="Hey!I'm peacock"
+                break; 
+                case('Q'): 
+                document.getElementById("p1").style.backgroundImage='url("queen.jpeg")'
+                document.getElementById("p2").innerHTML="Hey!I'm real queen"
+                break; 
+                case('R'): 
+                document.getElementById("p1").style.backgroundImage='url("rabbit.jpg")'
+                document.getElementById("p2").innerHTML="It is a rabbit"
+                break; 
+                case('S'): 
+                document.getElementById("p1").style.backgroundImage='url("ship.jpg")'
+                document.getElementById("p2").innerHTML="It is a ship"
+                break; 
+                case('T'): 
+                document.getElementById("p1").style.backgroundImage='url("tiger.png")'
+                document.getElementById("p2").innerHTML="Hey!I'm tiger"
+                break;
+                case('U'): 
+                document.getElementById("p1").style.backgroundImage='url("umbrella.jpg")'
+                document.getElementById("p2").innerHTML="It is an umbrella"
+                break; 
+                case('V'): 
+                document.getElementById("p1").style.backgroundImage='url("violin.jpg")'
+                document.getElementById("p2").innerHTML="It is a violin"
+                break; 
+                case('W'): 
+                document.getElementById("p1").style.backgroundImage='url("watch.jpg")'
+                document.getElementById("p2").innerHTML="It is a watch"
+                break; 
+                case('X'): 
+                document.getElementById("p1").style.backgroundImage='url("x mas.jpg")'
+                document.getElementById("p2").innerHTML="It is a x-mas tree"
+                break; 
+                case('Y'): 
+                document.getElementById("p1").style.backgroundImage='url("yak.webp")'
+                document.getElementById("p2").innerHTML="It is a yak"
+                break; 
+                case('Z'): 
+                document.getElementById("p1").style.backgroundImage='url("zebra.jpg")'
+                document.getElementById("p2").innerHTML="Hey! I'm zebra"
+                break; 
+                default: 
+                document.getElementById("p1").style.backgroundImage='url("sorry.jpg")'
+                document.getElementById("p2").innerHTML="Unable to give u output"
+                break;
+                }
+
+            }
+        </script>
+    </head>
+    <body>
+         <input type="text" id="m1" > 
+         <button onclick="ab()" id="s1">Search</button>
+         <div id="p1"></div>
+         <div id="p2"></div>
+       
+       
+    </body>
+</html>
